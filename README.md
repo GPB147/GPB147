@@ -1,5 +1,5 @@
 ```python
-Hacker = ["0 Trust in God", "1 Knowing", "2 Seeing", "3 Imaging(Up to Down)", "4 Doing"]
+Hacker = ["0 Trust in God", "1 Knowing", "2 Seeing", "3 Imagine(Up to Down)", "4 Doing"]
 Malware = ["0 Firmware / BIOS / UEFI malware", "1 Rootkit"]
 CyberSecurity = Malware
 GPB147 = ["0 Hacker", 1 "CyberSecyrity", 2 "Malwares"]
