@@ -1,4 +1,9 @@
 ```python
+Hacker = ["0 Trust in God", "1 Knowing", "2 Seeing", "3 Imaging(Up to Down)", "4 Doing"]
+Malware = ["0 Firmware / BIOS / UEFI malware", "1 Rootkit"]
+CyberSecurity = Malware
+GPB147 = ["0 Hacker", 1 "CyberSecyrity", 2 "Malwares"]
+
 Knowing = {
 	"0 English"
 	"1 Programming language(0 Python, 1 C, 2 C++, 3 Assembly(x86 & ARM & x86_64))": "[0 Udemy Online Courses, 1 Coursera 2 Books(0 C Programming Language, 1 Programming from the Ground Up, 2 K&R)]"
@@ -8,7 +13,7 @@ Knowing = {
 	"5 Creating practical projects(0 Rootkit writing, 1 UEFI/BIOS Vulnerabilities Analysis)": "[0 Online courses on Udemy, 1 Books(Rootkits: Subverting the Windows Kernel), 2 Security documentation on BIOS and UEFI, CTFs related to UEFI security, 3 RingHopper]"
 	"6 Gain professional experience(0 Participation in Open-Source projects, 1 Participate in CTF (Capture The Flag))": "[0 GitHub, 1 Coreboot, 2 UEFI project, 3 Hack The Box 4 TryHackMe, 5 TianoCore, 6 StackOverflow, 7 Reddit/r/ReverseEngineering, 8 OSCP, 9 OSCP)]"
 	"7 Employment and income generation(0 Security researcher, 1 Security Engineer)": "[0 Linkedin, 1 AngelList, 2 CyberSeek]"
-}	
+}		
 ```
 
 <a href="https://t.me/Sineme333"><img width="50px" height="50px" align="center" src="https://github.com/sineme333/learn/blob/main/icons8-telegram-logo-64.png?raw=true" /></a>
