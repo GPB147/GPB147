@@ -3,45 +3,47 @@ GPB148_RoadMap =
 {
 	"0 Full": 
 		
-		"""Hacker = [Trust in God, Seeing, Imagine(Up to Down), Doing]
+		"""0 Hacker = [Trust in God, Seeing, Imagine(Up to Down), Doing]
 		
-		Creatures = [Machines]
+		1 Creatures = [Machines]
 		
-		The_most_important_thing_in_the_world = [Data]
+		2 The_most_important_thing_in_the_world = [Data]
 		
-		Community_Of_Data_Hackers = [Anonymous]
+		3 Community_Of_Data_Hackers = [Anonymous]
 		
-		Best_way_to_income_in_world = [Selling data, Protecting data]
+		4 Best_way_to_income_in_world = [Selling data, Protecting data]
 		
-		Best_way_to_learn_in_world = [Basics in books, Practical in doing, Real in communication] 
+		5 Best_way_to_learn_in_world = [Basics in books, Practical in doing, Real in communication] 
 		
-		Basics_in_my_way = [English, Programming, System control, Computer, Network, Growth]
+		6 Basics_in_my_way = [English, Programming, System control, Computer, Network, Growth]
 		
-		Niche_in_my_way = [Reverse engineering, Malwares, Firmware/BIOS/UEFI and Rootkit hardware malware]
+		7 Niche_in_my_way = [Reverse engineering, Malwares, Firmware/BIOS/UEFI and Rootkit hardware malware]
 		
-		Hackers_Language = [Russion, English]
+		8 Hackers_Language = [Russion, English]
 		
-		Computer_Programming Language = [..., Assembly(Everything of Computer, C&C++(Have Assembly Defines), Python(Have C&C++ Defines), ...]
+		9 Computer_Programming Language = [..., Assembly(Everything of Computer, C&C++(Have Assembly Defines), Python(Have C&C++ Defines), ...]
 		
-		Computer_Control = [Terminal(PowerShell,Bash,...)]
+		10 Computer_Control = [Terminal(PowerShell,Bash,...)]
 		
-		Computer_System = [Kernel, Windows, Mac]
+		11 Computer_System = [Kernel, Windows, Mac]
 		
-		Computer = [Hardwares]
+		12 Computer = [Hardwares]
 		
-		Computer_Network = [Internet]
+		13 Computer_Network = [Internet]
 		
-		Computer_Reverse_Engineering= [Defence]
+		14 Computer_Reverse_Engineering= [Defence]
 		
-		Computer_Malwares = [Attack(Rootkit, Firmware/BIOS/UEFI)]
+		15 Computer_Malwares = [Attack(Rootkit, Firmware/BIOS/UEFI)]
 		
-		Growing = [GitHub, Reddit, StackOverFlow, Correboot, Freelancing, Jobs, CTF, Bug Bounties, Open Sources, Certifications, Linkedin, Conferences, Classes]
+		16 Growing = [GitHub, Reddit, StackOverFlow, Correboot, Freelancing, Jobs, CTF, Bug Bounties, Open Sources, Certifications, Linkedin, Conferences, Classes]
 		
-		Efficiency = [Learning, Growing, Permanent remote employment, Permanent remote employment better, Education exemption, Penetration and selling/destroing, Immigration by buying solidiering/special exemption, making my business(Hunter)]"""
+		17 Efficiency = [Learning, Growing, Permanent remote employment, Permanent remote employment better, Education exemption, Penetration and selling/destroing, Immigration by buying solidiering/special exemption, making my business(Hunter)]"""
 
 
-	"1 Knowing" = """{
+	"1 Knowing" = 
+	"""{
 		0 English
+		
 		1 Programming language(0 Python, 1 C, 2 C++, 3 Assembly(x86 & ARM & x86_64)): [0 Udemy Online Courses, 1 Coursera 2 Books(0 Automate the Boring Stuff with Python, 2nd Edition, 1 Fluent Python, 2nd Edition, 2 The C Programming Language (2nd Edition), 3 Effective C++, 3rd Edition, 4 C++ Primer, 5th Edition, 5 Programming Ground Up, 6 The Art of Assembly Language, 2nd Edition)]
 		
 		2 Familiarity with operating systems and hardware architecture(0 Linux operating system, 1 Introduction to computer architecture, 2 Basic introduction to networking and protocols): [0 Linux courses on Udemy, 1 Online university courses, 2 Books(0 Linux Command Line and Shell Scripting Bible 5th Edition, 1 Linux Bible 9th Edition, 2 Computer Organization and Design: The Hardware/Software Interface 6th, 3 Computer Networking: A Top-Down Approach 8th Edition, 4 Linux Basics for Hackers, 5 Computer Organization and Design)]
@@ -75,11 +77,25 @@ GPB148_RoadMap =
 		5 4M = [1Seeing, 1Third Eye, 4English, 1Python, 1C/C++, 1Assembly, 1Terminal, 1Linux, 1Computer(Hardware), 1Computer Network, 1Reverse Engineering, 1Malware, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]"""
 
 
-	"3 Details":
+	"3 Security":
 
-		"""0 Getting_Money_Problem = 0 Payoneer, 1 Online Web(Paxum, Skrill), 2 May Work(Some freelance platforms, Guru, Toptal, Toptal), 3 Cryptocurrency
+		"""0 Payment Methods = [Foreign intermediary, Crypto(Web3), Platform that pay "indirectly"]
 		
-		1 CTF_for_Malware = [defcon]"""
+		1 In first start in web3 and for later apply for real remot job and after that passing technical evaluation and after that tell to company your position you are and crypto is the cleanest payment method for you
+		
+		2 Technical Evaluation = [See your growing, Deep discussion, Some tasks you most do]
+	
+		3 in technical evaluation just be your self and know it cyberseurity guys in world has like you in speaking English or don't like video chats or anything
+
+		4 Earning Money = [Money transfered to your wallet from company, Convert to IRR gradually and in some accounts, making normal history in your account/s by saving and buying and pay rent and money earned and more, Growing your earned money by time]
+
+		5 In earning money if they asking what is source of funds you just say freelancing, remote technical work and paid digitally and if they want proof you just show them your invoces and email agreement and work output and this process, do NOT explain things like crypto or other things, just keep it simple and boring, explain everything they just want no more"""
+
+		6 Important In Remote Jobs = [Deadline, Quality]
+
+		7 In remote jobs no matter what time you spend in project and whet you word, missing deadline is normal and not communication is not normal(Explaining)
+
+		8 Important for me = [doing my best]
 }
 ```
 
