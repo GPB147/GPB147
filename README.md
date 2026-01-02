@@ -42,62 +42,137 @@ GPB147_RoadMap =
 
 	"1 Knowing" = 
 	"""{
-		0 English
+		0 Foundation:
+
+			0 English
 		
-		1 Programming language(0 Python, 1 C, 2 C++, 3 Assembly(x86 & ARM & x86_64)): [1 Coursera 2 Books(0 Automate the Boring Stuff with Python, 2nd Edition, 1 Fluent Python, 2nd Edition, 2 The C Programming Language (2nd Edition), 3 Effective C++, 3rd Edition, 4 C++ Primer, 5th Edition, 5 Programming Ground Up, 6 The Art of Assembly Language, 2nd Edition)]
-		
-		2 Familiarity with operating systems and hardware architecture(0 Linux operating system, 1 Introduction to computer architecture, 2 Basic introduction to networking and protocols): [2 Books(0 Linux Command Line and Shell Scripting Bible 5th Edition, 1 Linux Bible 9th Edition, 2 Computer Organization and Design: The Hardware/Software Interface 6th, 3 Computer Networking: A Top-Down Approach 8th Edition, 4 Linux Basics for Hackers, 5 Computer Organization and Design)]
-		
-		3 Reverse engineering: [0 Ghidra, 1 IDA Pro, 2 Radare, 3 Binary Ninja, 4 GDB, 5 WinDbg, 6 Books(0 Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Toolsm, 1 Reversing: Secrets of Reverse Engineering, 2nd Edition, 2 Hacking: The Art of Exploitation, 2nd Edition)]"
-		
-		4 Working with Firmware and UEFI": [0 UEFI Documentation, 1 Books(0 The Art of Computer Virus Research and Defense (2nd Edition), 1 Rootkits: Subverting the Windows Kernel (2nd Edition), 2 The Firmware Handbook by Gary H. Koob), 2 Coreboot, 3 TianoCore, 5 UEFITool, 6 CHIPSEC]
-		
-		5 Creating practical projects(0 Rootkit writing, 1 UEFI/BIOS Vulnerabilities Analysis): [1 Books(Rootkits: 0 Rootkits: Subverting the Windows Kernel by Greg Hoglund and James Butler(second edition), 1 Practical Malware Analysis: The Hands-on Guide to Dissecting Malicious, 2 Subverting the Windows Kernel), 2 Security documentation on BIOS and UEFI, CTFs related to UEFI security, 3 RingHopper]
-		
-		6 Gain professional experience(0 Participation in Open-Source projects, 1 Participate in CTF (Capture The Flag)): [0 GitHub, 1 Coreboot, 2 UEFI project, 3 Hack The Box 4 TryHackMe, 5 TianoCore, 6 StackOverflow, 7 Reddit/r/ReverseEngineering, 8 OSCP, 9 OSCP, 10 Books(0 The Pragmatic Programmer: Your Journey to Mastery (2nd Edition), 1 The Complete Software Developer's Career Guide (2nd Edition))]
-		
-		7 Employment and income generation(0 Security researcher, 1 Security Engineer): [0 Linkedin, 1 AngelList, 2 CyberSeek, 3 Books(0 Cracking the Coding Interview: 189 Programming Questions and Solutions (7th), 1 The Cybersecurity Career Guide (2nd Edition)]
+			1 Python:
+
+				0 Books = [Automate the Boring Stuff with Python (2nd Edition)]
+
+				1 Must to learn = [Write scripts without fear, Automate analysis, Read others’ Python]
+
+				2 Don't learn = [Advanced Python internals, Data science, Web frameworks]
+
+			2 Linux + Terminal: 
+
+				0 Books = [Linux Command Line and Shell Scripting Bible (5th Edition) + Linux Basics for Hackers]
+
+				1 Must to learn = [Live in terminal, Debug, script, build, flash, analyze]
+
+				2 Don't learn = [PowerShell, Desktop Linux theory, Server administration depth]
+
+			3 C programming:
+
+				0 Books = [The C Programming Language (2nd Edition)]
+
+				1 Most to learn = [Pointers are natural, Read kernel & firmware C, Understand memory bugs]
+
+				2 Don't learn = [Modern C++ depth, STL, Application‑level patterns]
+
+			3 Computer Architecture & Memory:
+
+				0 Books = [Computer Organization and Design MIPS Edition 6th]
+
+				1 Must to learn = [Stack / heap / registers, Privilege levels, Boot trust chain]
+
+				2 Don't learn = [Quantitative CPU optimization, HPC topics]
+
+			4 Assembly(x86, ARM, x86_64):
+
+				0 Books = [The Art of Assembly Language (2nd Edition)]
+
+				1 Must to learn = [Read disassembly without fear, Translate C ↔ ASM, Understand calling conventions]
+
+				2 Don't learn = [Writing large ASM programs, Micro‑optimizations]
+
+			5 Networking:
+
+				0 Books = [Computer Networking: A Top-Down Approach (8th Edition)]
+
+				1 Must to learn = [Understand packet flow, Understand packet flow, Recognize malicious traffic, Support reverse engineering & malware analysis]
+
+				2 Tools = [Wireshark, Wireshark]
+
+				3 Stop at = [Application layer (light), Application layer (light), Transport layer (TCP/UDP)]
+
+				4 Don't learn = [Wireless deep dive, SDN, Advanced congestion control, Cloud networking, Network programming depth] 
+	
+		1 System + Kernel:
+
+			0 Operating System Internals(OS Internet):
+
+				0 Books = [Windows Internals (7th Edition) + Operating Systems: Three Easy Pieces]
+
+				1 Must to learn = [User vs kernel boundary, Drivers, Boot chain OS ↔ firmware]
+
+				2 Don't learn = [Scheduler theory depth, Filesystem internals obsession]
+
+			1 Reverse Engineering:
+
+				0 Books = [Practical Reverse Engineering (latest) + Reversing: Secrets of RE (2nd Edition)]
+
+				1 Most to learn = [Reconstruct logic from binaries, Track data flow not instructions, Handle stripped binaries]
+
+				2 Tools = [Ghidra (primary), GDB / WinDbg (support)]
+
+				3 Don't learn = [Crackme culture, Obfuscation contests, GUI‑heavy reversing]
+
+			2 Malware(user/kernel/rootkits):
+
+				0 Books = [Practical Malware Analysis (latest) + Rootkits: Subverting the Windows Kernel (2nd Edition)]
+
+				1 Must to learn = [Persistence, Stealth, Hooks, Trust abuse]
+
+				2 Don't learn = [Web malware, Ransomware economics, Botnets]
+
+		2 Niche Mastery:
+
+			0 Firmware / BIOS / UEFI:
+
+				0 Books = [The Firmware Handbook (Gary Koob) + UEFI Specification (official)]
+
+				1 Must to learn = [Know what each component does, Know where trust is assumed, Know how it breaks, Know how to abuse it]
+
+				2 Tools = [CHIPSEC, UEFITool, TianoCore, coreboot]
+
+				3 Topics to MASTER = [Boot phases: SEC / PEI / DXE, SPI flash, PE/COFF, UEFI protocols, Secure Boot, Firmware persistence]
+
+				3 Don't learn = [Full motherboard design, Electrical engineering, BIOS vendor marketing docs]
+
+			1 Practical Projects:
+
+				0 Must to do = [GitHub PoCs, Firmware/rootkit write‑ups, UEFI‑focused CTFs]
+
+				1 Career = [The Cybersecurity Career Guide (2nd Edition), Cracking the Coding Interview (7th) oprional, Remote research roles, Crypto / indirect payment (as you planned)]
+
+				2 Don't do = [Certifications obsession, Social media branding, Non‑technical networking]	
+
+		3 Growth = [GitHub, Reddit, StackOverFlow, Correboot, Freelancing, Jobs, CTF, Bug Bounties, Open Sources, Certifications, Linkedin, Conferences, Classes]
+
 	}"""	
 
 	"2 Learning Process":
 
 		"""0 = {Fri: Free, Thu&Sat: Half, Sat&Mon&Wed: Sport}
 		
-		1 4M = [1Seeing, 1Third Eye, 4English, 1Python, 1C/C++, 1Assembly, 1Terminal, 1Malware, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
+		1 2M = [1Seeing, 1Third Eye, 4English, 4Python, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 		
-		2 4M = [1Seeing, 1Third Eye, 4English, 1C/C++, 1Assembly, 1Terminal, 1Linux, 1Malware, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
+		2 2M = [1Seeing, 1Third Eye, 4English, 4Linux+Terminal, 4C, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 		
-		3 4M = [1Seeing, 1Third Eye, 4English, 1C/C++, 1Assembly, 1Terminal, 1Linux, 1Computer(Hardware), 1Malware, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
+		3 2M = [1Seeing, 1Third Eye, 4English, 4Computer Architecture & Memory, 4Assembly(x86, ARM, x86_64), 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 		
-		4 4M = [1Seeing, 1Third Eye, 4English, 1C/C++, 1Assembly, 1Terminal, 1Linux, 1Computer(Hardware), 1Computer Network, 1Malware, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
+		4 2M = [1Seeing, 1Third Eye, 4English, 4Networking, 4Operating System Internals(OS Internet), 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 		
-		5 4M = [1Seeing, 1Third Eye, 4English, 1C/C++, 1Assembly, 1Terminal, 1Linux, 1Computer(Hardware), 1Computer Network, 1Reverse Engineering, 1Malware, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
+		5 2M = [1Seeing, 1Third Eye, 4English, 4Reverse Engineering, 4Malware(user/kernel/rootkits), 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 
-		6 Fact = [You forgot everything but important thing is RELOAD the knowledge you need fast, Forgoting is the price for being deep and deeper]"""
+		6 2M = [1Seeing, 1Third Eye, 4English, 8Firmware / BIOS / UEFI, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 
-		"9 Limited Time":
+		7 2M = [1Seeing, 1Third Eye, 4English, 8Practical Projects, 1Buying, 1Sport, 1Clean, 1Founding Job, xGrowing, 7Sleep(10-4)]
 
-			"""0 English = [You can read technical documentation without translating every line, You can write notes and search effectively]
+		8 Fact = [You forgot everything but important thing is RELOAD the knowledge you need fast, Forgoting is the price for being deep and deeper, And in last everything is automatic(No thinking)]
 
-			1 Linux + Terminal = [You live in terminal comfortably, You can install, debug, script, automate, Bash is a tool, not a topic]
-
-			2 C programming = [C programming, Pointers are natural, Memory layout makes sense, You can read kernel-style C]
-
-			3 Computer Architecture & Memory = [You understand registers and stack and heap, Paging & MMU concepts are clear, Privilege levels make sense, Boot trust hierarchy is clear]
-
-			4 Assembly = [You translate C ↔ ASM mentally, Stack frames are obvious, Calling conventions are clear, Disassembly no longer scares you]
-
-			5 Operating System Internals = [User vs kernel boundary is clear, Drivers make sense, Memory management basics are clear, Boot sequence OS ↔ firmware is understood]
-
-			6 Reverse Engineering = [You reconstruct logic from binaries, You infer structures without symbols, You track data flow, not just instructions, You track data flow, not just instructions, Ghidra (primary), GDB / WinDbg (enough)]
-
-			7 Malware = [User-mode malware, Kernel drivers, Kernel rootkits, You understand persistence, You understand stealth, You understand hooks & trust abuse]
-
-			8 Firmware / BIOS / UEFI = [You know what the component does, Why it exists, Where trust is assumed, How it can be abused, Boot phases (SEC/PEI/DXE), PE/COFF, UEFI protocols, SPI flash, Secure Boot, CHIPSEC, TianoCore / coreboot]
-
-			9 Python = [You write scripts without fear, You automate & parse, You can read others’ code]
-
-			10 Networking = [TCP vs UDP, Ports & DNS, Basic packet flow]"""
+		9 Roadmap = [Learn, Done, Go to next, Forget, Reload only when needed, Automated]"""
 
 
 	"3 Security":
@@ -112,7 +187,7 @@ GPB147_RoadMap =
 
 		4 Earning Money = [Money transfered to your wallet from company, Convert to IRR gradually and in some accounts, making normal history in your account/s by saving and buying and pay rent and money earned and more, Growing your earned money by time]
 
-		5 In earning money if they asking what is source of funds you just say freelancing, remote technical work and paid digitally and if they want proof you just show them your invoces and email agreement and work output and this process, do NOT explain things like crypto or other things, just keep it simple and boring, explain everything they just want no more"""
+		5 In earning money if they asking what is source of funds you just say freelancing, remote technical work and paid digitally and if they want proof you just show them your invoces and email agreement and work output and this process, do NOT explain things like crypto or other things, just keep it simple and boring, explain everything they just want no more
 
 		6 Important In Remote Jobs = [Deadline, Quality]
 
