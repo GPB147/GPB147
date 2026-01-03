@@ -197,7 +197,42 @@ GPB147_RoadMap =
 							5 Linux kernel tooling/doc = [Small bug fixes or docs]			
 	}"""	
 
-	"2 Learning Process":
+	
+	"2 Funding":
+
+		"""0 Making Tools = [GitHun writeup + POC]
+
+		1 Ways:
+
+			0 Good = [Reddit, Hacker News(HN), Direct cold contact, LaborX]
+
+			1 Bad = [Upwork, Freelancer, PeoplePerHour]
+		
+		2 Bidding:
+
+			0 Position = [Every job that you making tool in that area before]
+
+			1 Texting = [No long, No explanations, No selling yourself, Honestly]
+
+			2 Portfolio = [GitHub link]
+
+			3 Payment = [Crypto]
+
+			4 Price = [Do not bid like a beggar]
+
+		3 Don't do:
+
+			0 sell hacking
+
+			1 wait to "finish learning"
+			
+			2 argue with clients
+
+			3 mix identity with income
+
+		4 Roadmap = [Learning, Growing, Funding, Completed roadmap, Hiring good remote job, Learning, Growing, Making own business]""" 
+
+	"3 Learning Process":
 
 		"""0 = {Fri: Free, Thu&Sat: Half, Sat&Mon&Wed: Sport}
 		
@@ -219,8 +254,7 @@ GPB147_RoadMap =
 
 		9 Roadmap = [Learn, Done, Go to next, Forget, Reload only when needed, Automated]"""
 
-
-	"3 Security":
+	"4 Security":
 
 		"""0 Payment Methods = [Foreign intermediary, Crypto(Web3), Platform that pay "indirectly"]
 		
