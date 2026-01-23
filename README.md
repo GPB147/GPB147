@@ -312,7 +312,34 @@ GPB147_RoadMap =
 
 		8 Important for me = [doing my best]"""
 
-	"6 Requirements":
+	"6 Who will I become"
+
+		"""0 ID:
+
+			0 Not = [hacker, malware developer, Linux expert, pentester]
+
+			1 Yes:
+				0 Means = [firmware / boot-level security researcher]
+
+				1 Detailes = [Computer start, Trust(is, broke, proves by codes)]
+
+		1 Day routine:
+
+			0 Long:
+
+				0 Recive = [firmware image, device, boot log, or a research question like "Can this system be persistent below the OS?"]
+
+				1 Analyze = [UEFI modules, boot phases, Secure Boot flow, trust boundaries]
+
+				2 Reason = [Who is trusted here?, What happens if this is writable?, What executes before what?]
+
+				3 Build small POCs = [a malicious DXE driver, a persistence mechanism, a boot-time hook]
+
+				4 Explain = [writeups, reports, GitHub READMEs, sometimes internal company docs]
+
+			1 Short = [Read, Modify, Test, Explain]
+
+	"7 Requirements":
 
 		"""0 Time = [2 Year] 
 
@@ -324,7 +351,7 @@ GPB147_RoadMap =
 
 		4 Food"""
 
-	"7 Reward":
+	"8 Reward":
 
 		"""0 House = [Highest security, Best location, Small]
 
@@ -332,7 +359,7 @@ GPB147_RoadMap =
 
 		2 Supporting = [Family, People like me]
 
-		3 Respect = [Best in one thing]
+		3 Respect = [Goverments, Companies, Tech, Cybersecurity]
 
 		4 Own family = [Wife like me, Making fun together]"""
 }
