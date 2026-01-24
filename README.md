@@ -1,48 +1,125 @@
 ```python
 GPB147_RoadMap = 
 {
-	"0 Full": 
+	"0 Communication": 
 		
-		"""0 Hacker = [Trust in God, Seeing, Imagine(Up to Down), Doing]
-		
-		1 Creatures = [Machines]
-		
-		2 The_most_important_thing_in_the_world = [Data]
-		
-		3 Community_Of_Data_Hackers = [Anonymous]
-		
-		4 Best_way_to_income_in_world = [Selling data, Protecting data]
-		
-		5 Best_way_to_learn_in_world = [Basics in books, Practical in doing, Real in communication] 
-		
-		6 Basics_in_my_way = [English, Programming, System control, Computer, Network, Growth]
-		
-		7 Niche_in_my_way = [Reverse engineering, Malwares, Firmware/BIOS/UEFI and Rootkit hardware malware]
-		
-		8 Hackers_Language = [Russion, English]
-		
-		9 Computer_Programming Language = [..., Assembly(Everything of Computer, C&C++(Have Assembly Defines), Python(Have C&C++ Defines), ...]
-		
-		10 Computer_Control = [Terminal(PowerShell,Bash,...)]
-		
-		11 Computer_System = [Kernel, Windows, Mac]
-		
-		12 Computer = [Hardwares]
-		
-		13 Computer_Network = [Internet]
-		
-		14 Computer_Reverse_Engineering= [Defence]
-		
-		15 Computer_Malwares = [Attack(Rootkit, Firmware/BIOS/UEFI)]
-		
-		16 Growing = [GitHub, Reddit, StackOverFlow, Correboot, Freelancing, Jobs, CTF, Bug Bounties, Open Sources, Certifications, Linkedin, Conferences, Classes]
-		
-		17 Efficiency = [Learning, Growing, Permanent remote employment, Permanent remote employment better, Education exemption, Penetration and selling/destroing, Immigration by buying solidiering/special exemption, making my business(Hunter)]"""
+		"""0 A Dreamly Demand Organizm System For Vantage:
 
+			0 More Dreamly Demand:
 
+				0 Big Community= [Low Vantage]
+
+				1 Small Community = [High Vantage]
+
+			1 Less Dreamly Demand:
+
+				0 Big Community = [Medium Vantage]
+	
+				1 Small Community = [Legend Vantage]
+
+		1 Programming:
+
+			0 People in world = [8 Billion]
+
+			1 In world = [30 Millions=%0.375]
+
+			2 In Iran = [300 Thousands=%1 of world]
+
+			3 Earn money as a job in world = [%50]
+
+			4 Earn money as a job in Iran = [%25]
+
+			5 Remote working in another country in world = [%10]
+
+			6 remote working in another country in Iran = [%3]
+
+			7 Security in world = [%3]
+
+			8 Security in Iran = [%1.6]
+
+			9 Reverse engineering in world = [%0.5]
+
+			10 Reverse engineering in Iran = [%0.2]
+
+			11 BIOS / UEFI / Firmware in world = [%0.1]
+
+			12 BIOS / UEFI / Firmware in Iran = [%0.05] 
+	
+		1 Programming=High Vantage(Dreamly Demand=%60 IN World & Community=%0.375 IN World):
+
+			0 High Vantage(Dreamly Demand=%100 OF %80 & Community=%20 OF %0.375):
+
+				0 English
+	
+				1 Python 
+
+				2 Linux+Shell 
+
+			1 Legend Vantage(Dreamly Demand=%40 & Community=%3):
+
+				0 C
+
+				1 Computer Architecture & Memory
+
+				2 Assembly(x86, ARM, x86_64)
+
+			2 Legend Vantage(Dreamly Demand=%20 & Community=%0.5):
+
+				6 Networking
+
+				7 Operating System Internals(OS Internet) 
+
+				8 Reverse Engineering 
+
+			3 Legend Vantage(Dreamly Demand=%4 & Community=%0.1):
+
+				0 Malware(user/kernel/rootkits) 
+
+				1 Firmware / BIOS / UEFI 
+
+				2 Doing + Reading 
+
+		2 Basics:
+
+			0 Making A Comfort Zone
+
+			1 Disine This
+
+		3 Funding = [Hiring in remote companies]
+
+		4 Payment = [Crypto for living in Iran]
+
+		5 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
+
+		6 Reward = [Society Security, Freedome]
+
+		7 Who will I become:
+
+			0 ID:
+
+				0 Short = [firmware / boot-level security researcher]
+
+				1 Long = [Computer start, Trust(is, broke, proves by codes)]
+
+			1 Day routine:
+
+				0 Long:
+
+					0 Recive = [firmware image, device, boot log, or a research question like "Can this system be persistent below the OS?"]
+
+					1 Analyze = [UEFI modules, boot phases, Secure Boot flow, trust boundaries]
+
+					2 Reason = [Who is trusted here?, What happens if this is writable?, What executes before what?]
+
+					3 Build small POCs = [a malicious DXE driver, a persistence mechanism, a boot-time hook]
+
+					4 Explain = [writeups, reports, GitHub READMEs, sometimes internal company docs]
+
+				1 Short = [Read, Modify, Test, Explain]]"""
+		
 	"1 Knowing" = 
 	"""{
-		0 Foundation:
+		0 Level 0:
 
 			0 English
 		
@@ -68,7 +145,9 @@ GPB147_RoadMap =
 
 					1 Ignore it = [customize, decorate, replace thinking]
 
-			3 C programming:
+		1 Level 1:
+
+			0 C programming:
 
 				0 Books = [The C Programming Language (2nd Edition)]
 
@@ -76,7 +155,7 @@ GPB147_RoadMap =
 
 				2 Don't learn = [Modern C++ depth, STL, Application‑level patterns]
 
-			4 Computer Architecture & Memory:
+			1 Computer Architecture & Memory:
 
 				0 Books = [Computer Organization and Design MIPS Edition 6th]
 
@@ -84,7 +163,7 @@ GPB147_RoadMap =
 
 				2 Don't learn = [Quantitative CPU optimization, HPC topics]
 
-			5 Assembly(x86, ARM, x86_64):
+			2 Assembly(x86, ARM, x86_64):
 
 				0 Books = [The Art of Assembly Language (2nd Edition)]
 
@@ -92,7 +171,9 @@ GPB147_RoadMap =
 
 				2 Don't learn = [Writing large ASM programs, Micro‑optimizations]
 
-			6 Networking:
+		2 Level 2:
+
+			0 Networking:
 
 				0 Books = [Computer Networking: A Top-Down Approach (8th Edition)]
 
@@ -103,10 +184,8 @@ GPB147_RoadMap =
 				3 Stop at = [Application layer (light), Application layer (light), Transport layer (TCP/UDP)]
 
 				4 Don't learn = [Wireless deep dive, SDN, Advanced congestion control, Cloud networking, Network programming depth] 
-	
-		1 System + Kernel:
 
-			0 Operating System Internals(OS Internet):
+			1 Operating System Internals(OS Internet):
 
 				0 Books = [Windows Internals (7th Edition) + Operating Systems: Three Easy Pieces]
 
@@ -116,7 +195,7 @@ GPB147_RoadMap =
 
 
 
-			1 Reverse Engineering:
+			2 Reverse Engineering:
 
 				0 Books = [Practical Reverse Engineering (latest) + Reversing: Secrets of RE (2nd Edition)]
 
@@ -126,7 +205,9 @@ GPB147_RoadMap =
 
 				3 Don't learn = [Crackme culture, Obfuscation contests, GUI‑heavy reversing]
 
-			2 Malware(user/kernel/rootkits):
+		3 Level 3:
+
+			0 Malware(user/kernel/rootkits):
 
 				0 Books = [Practical Malware Analysis (latest) + Rootkits: Subverting the Windows Kernel (2nd Edition)]
 
@@ -134,9 +215,7 @@ GPB147_RoadMap =
 
 				2 Don't learn = [Web malware, Ransomware economics, Botnets]
 
-		2 Niche Mastery:
-
-			0 Firmware / BIOS / UEFI:
+			1 Firmware / BIOS / UEFI:
 
 				0 Books = [The Firmware Handbook (Gary Koob) + UEFI Specification (official)]
 
@@ -148,129 +227,92 @@ GPB147_RoadMap =
 
 				3 Don't learn = [Full motherboard design, Electrical engineering, BIOS vendor marketing docs]
 
-		3 Growth:
+			2 Growth:
 
-			0 Career = [The Cybersecurity Career Guide (2nd Edition), Remote research roles, Crypto / indirect payment (as you planned)]
+				0 Career = [The Cybersecurity Career Guide (2nd Edition), Remote research roles, Crypto / indirect payment (as you planned)]
 
-			1 Hiring = [They connect to you, You connect to they]
+				1 Hiring = [They connect to you, You connect to they]
 		
-			2 Trying = {"High demand: More", "Average demand: middle", "Low demand: Low"}
+				2 Trying = {"High demand: More", "Average demand: middle", "Low demand: Low"}
 
-			3 Trusting(Constincy) = [GitHub, Reddit, StackOverFlow, Correboot, Linkedin, Conferences, Classes, Certifications]
+				3 Trusting(Constincy) = [GitHub, Reddit, StackOverFlow, Correboot, Linkedin, Conferences, Classes, Certifications]
 
-			4 Showing = [Writeups(Understanding) + POC(Making), Freelancing, Jobs]
+				4 Showing = [Writeups(Understanding) + POC(Making), Freelancing, Jobs]
 
-			5 Testing = [Open source contributions(Doing in real world), CTF]
+				5 Testing = [Open source contributions(Doing in real world), CTF]
 	
-			6 Focus = [For success you just need one of every phases(GitHub(Writeups + POC + Open source contributions))]
+				6 Focus = [For success you just need one of every phases(GitHub(Writeups + POC + Open source contributions))]
 
-			7 Don't do = [Certifications obsession, Social media branding, Not followers, Non‑technical networking]	
+				7 Don't do = [Certifications obsession, Social media branding, Not followers, Non‑technical networking]	
 
-			8 Roadmap:
+				8 Roadmap:
 
-				0 Github:
+					0 Github:
 
-					0 Writeups:
+						0 Writeups:
 
-						0 Means = [Underestnding Concepts]
+							0 Means = [Underestnding Concepts]
 
-						1 Use = [README, Wiki, docs/Documentation]
+							1 Use = [README, Wiki, docs/Documentation]
 
-					1 POC:
+						1 POC:
 
-						0 Means = [Proof Of Concepts]
+							0 Means = [Proof Of Concepts]
 
-						1 Use = [Coding]
+							1 Use = [Coding]
 
-					2 Open source contributions:
+						2 Open source contributions:
 
-						0 Means = [Doing Concepts]
+							0 Means = [Doing Concepts]
 
-						1 Focus = [Niche, quality not quantity]
+							1 Focus = [Niche, quality not quantity]
 
-						2 Steps = [Read, Build, Use, Observe friction, Small contribution, PR, Repeat]
+							2 Steps = [Read, Build, Use, Observe friction, Small contribution, PR, Repeat]
 
-						3 Projects:
+							3 Projects:
 
-							0 CHIPSEC = [Hardware/firmware security testing]
+								0 CHIPSEC = [Hardware/firmware security testing]
 		
-							1 EDK II(TianoCore) = [UEFI firmware]
+								1 EDK II(TianoCore) = [UEFI firmware]
 	
-							2 coreboot = [Open-source BIOS/firmware]
+								2 coreboot = [Open-source BIOS/firmware]
 	
-							3 UEFITool = [UEFI image analysis]
+								3 UEFITool = [UEFI image analysis]
 	
-							4 Ghidra = [Reverse engineering plugins/scripts]
+								4 Ghidra = [Reverse engineering plugins/scripts]
 
-							5 Linux kernel tooling/doc = [Small bug fixes or docs]			
-	}"""	
+								5 Linux kernel tooling/doc = [Small bug fixes or docs]			
+}"""	
 
-	
-	"2 Funding":
+	"2 Learning Process":
 
-		"""0 Making Tools = [GitHun writeup + POC]
-
-		1 Ways:
-
-			0 Good = [Reddit, Hacker News(HN), Direct cold contact, LaborX]
-
-			1 Bad = [Upwork, Freelancer, PeoplePerHour]
+		"""0 2 Mounths = [English, Python] = [Done]
 		
-		2 Bidding:
-
-			0 Position = [Every job that you making tool in that area before]
-
-			1 Texting = [No long, No explanations, No selling yourself, Honestly]
-
-			2 Portfolio = [GitHub link]
-
-			3 Payment = [Crypto]
-
-			4 Price = [Do not bid like a beggar]
-
-		3 Don't do:
-
-			0 sell hacking
-
-			1 wait to "finish learning"
-			
-			2 argue with clients
-
-			3 mix identity with income
-
-		4 Roadmap = [Learning, Growing, Funding, Completed roadmap, Hiring good remote job, Learning, Growing, Making own business]""" 
-
-	"3 Learning Process":
-
-		"""0 = {Fri: Free+Funding, Thu&Sat: Half+Funding, Sat&Mon&Wed: Sport}
+		1 1 Mounths = [English, Linux+Shell] = [Done]
 		
-		1 2M = [1Seeing, 1Third Eye, 4English, 7Python, 1Buying, 1Sport, 1Clean, xGrowing, 7Sleep(10-4)]
+		2 1 Mounth = [English, C] = [Working]
 		
-		2 1M = [1Seeing, 1Third Eye, 4English, 11Linux+Terminal, 1Buying, 1Sport, 1Clean, xGrowing, 7Sleep(10-4)]
+		3 1 Mounth = [English, Computer Architecture & Memory] = [...]
 		
-		3 1M = [1Seeing, 1Third Eye, 4English, 11C, 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
-		
-		4 1M = [1Seeing, 1Third Eye, 4English, 11Computer Architecture & Memory, 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
-		
-		5 1M = [1Seeing, 1Third Eye, 4English, 11Assembly(x86, ARM, x86_64), 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
+		4 1 Mounth = [English, Assembly(x86, ARM, x86_64)] = [...]
 
-		6 1M = [1Seeing, 1Third Eye, 4English, 11Networking, 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
+		5 1 Mounth = [English, Networking] = [...]
 
-		7 1M = [1Seeing, 1Third Eye, 4English, 11Operating System Internals(OS Internet), 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
+		6 1 Mounth = [English, Operating System Internals(OS Internet)] = [...]
 
-		8 1M = [1Seeing, 1Third Eye, 4English, 11Reverse Engineering, 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
+		7 1 Mounth = [English, Reverse Engineering] = [...]
 
-		9 1M = [1Seeing, 1Third Eye, 4English, 11Malware(user/kernel/rootkits), 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
+		8 1 Mounth = [English, Malware(user/kernel/rootkits)] = [...]
 
-		10 4M = [1Seeing, 1Third Eye, 4English, 11Firmware / BIOS / UEFI, 1Buying, 1Sport, 1Clean, xGrowing+Funding, 7Sleep(10-4)]
+		9 4 Mounths = [English, Firmware / BIOS / UEFI] = [...]
 
-		11 1M = [1Seeing, 1Third Eye, 4English 1Buying, 1Sport, 1Clean, 11Growing+Funding, 7Sleep(10-4)]
+		10 1 Year = [English, Growth] = [...]
 
-		12 Fact = [You forgot everything but important thing is RELOAD the knowledge you need fast, Forgeting is the price for being deep and deeper, And in last everything is automatic(No thinking)]
+		11 Fact = [You forgot everything but important thing is RELOAD the knowledge you need fast, Forgeting is the price for being deep and deeper, And in last everything is automatic(No thinking)]
 
-		13 Roadmap = [Learn basics, Done, Go to next, Forget, Learn niche, Reload only when needed + Details you need, Automated]"""
+		12 Roadmap = [Learn basics, Done, Go to next, Forget, Learn niche, Reload only when needed + Details you need, Automated]"""
 
-	"4 AI(ML) Helper":
+	"3 AI(ML) Helper":
 
 		"""0 Roadmap:
 
@@ -291,77 +333,6 @@ GPB147_RoadMap =
 			7 Completed = [Completed healthy data] 
 
 			8 Go to next step = [Next subject]"""
-
-	"5 Security":
-
-		"""0 Payment Methods = [Foreign intermediary, Crypto(Web3), Platform that pay "indirectly"]
-		
-		1 In first start in web3 and for later apply for real remot job and after that passing technical evaluation and after that tell to company your position you are and crypto is the cleanest payment method for you
-		
-		2 Technical Evaluation = [See your growing, Deep discussion, Some tasks you must do]
-	
-		3 in technical evaluation just be your self and know in cyberseurity guys in world has like you in speaking English or don't like video chats or anything
-
-		4 Earning Money = [Money transfered to your wallet from company, Convert to IRR gradually and in some accounts, making normal history in your account/s by saving and buying and pay rent and money earned and more, Growing your earned money by time]
-
-		5 In earning money if they asking what is source of funds you just say freelancing, remote technical work and paid digitally and if they want proof you just show them your invoces and email agreement and work output and this process, do NOT explain things like crypto or other things, just keep it simple and boring, explain everything they just want no more
-
-		6 Important In Remote Jobs = [Deadline, Quality]
-
-		7 In remote jobs no matter what time you spend in project and when you work, missing deadline is normal and not communication is unusual(Explaining)
-
-		8 Important for me = [doing my best]"""
-
-	"6 Who will I become"
-
-		"""0 ID:
-
-			0 Not = [hacker, malware developer, Linux expert, pentester]
-
-			1 Yes:
-				0 Means = [firmware / boot-level security researcher]
-
-				1 Detailes = [Computer start, Trust(is, broke, proves by codes)]
-
-		1 Day routine:
-
-			0 Long:
-
-				0 Recive = [firmware image, device, boot log, or a research question like "Can this system be persistent below the OS?"]
-
-				1 Analyze = [UEFI modules, boot phases, Secure Boot flow, trust boundaries]
-
-				2 Reason = [Who is trusted here?, What happens if this is writable?, What executes before what?]
-
-				3 Build small POCs = [a malicious DXE driver, a persistence mechanism, a boot-time hook]
-
-				4 Explain = [writeups, reports, GitHub READMEs, sometimes internal company docs]
-
-			1 Short = [Read, Modify, Test, Explain]
-
-	"7 Requirements":
-
-		"""0 Time = [2 Year] 
-
-		1 Laptop
-
-		2 Internet
-
-		3 Focus = [Empty mind of other things]
-
-		4 Food"""
-
-	"8 Reward":
-
-		"""0 House = [Highest security, Best location, Small]
-
-		1 Freedom = [Money, Time, Travel]
-
-		2 Supporting = [Family, People like me]
-
-		3 Respect = [Goverments, Companies, Tech, Cybersecurity]
-
-		4 Own family = [Wife like me, Making fun together]"""
 }
 ```
 
