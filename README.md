@@ -41,9 +41,9 @@ GPB147_RoadMap =
 
 			10 Reverse engineering in Iran = [%0.2]
 
-			11 BIOS / UEFI / Firmware in world = [%0.1]
+			11 BIOS / UEFI / Firmware in world = [%0.1 = 30 Thousands]
 
-			12 BIOS / UEFI / Firmware in Iran = [%0.05] 
+			12 BIOS / UEFI / Firmware in Iran = [%0.05 = 150] 
 	
 		1 Programming=High Vantage(Dreamly Demand=%60 IN World & Community=%0.375 IN World):
 
@@ -91,17 +91,19 @@ GPB147_RoadMap =
 
 		5 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
 
-		6 Reward = [Society Security, Freedome]
+		6 Reward = [Power(Social security, Freedome,...)]
 
 		7 Who will I become:
 
 			0 ID:
 
-				0 Short = [firmware / boot-level security researcher]
+				0 Short = [Remote firmware / boot-level security researcher]
 
 				1 Long = [Computer start, Trust(is, broke, proves by codes)]
 
-			1 Day routine:
+			1 Benefits = [This area just going to evolve, Not full AI automated, Hiring guarantee(High demand and low supply), Remote, High power in society, Knowing and not programming]
+
+			2 Day routine:
 
 				0 Long:
 
@@ -308,9 +310,7 @@ GPB147_RoadMap =
 
 		10 1 Year = [English, Growth] = [...]
 
-		11 Fact = [You forgot everything but important thing is RELOAD the knowledge you need fast, Forgeting is the price for being deep and deeper, And in last everything is automatic(No thinking)]
-
-		12 Roadmap = [Learn basics, Done, Go to next, Forget, Learn niche, Reload only when needed + Details you need, Automated]"""
+		11 Roadmap = [Knowing trust concepts(Not programming), Done, Go to next step, Knowing deeper trust concepts, done, ...]"""
 
 	"3 AI(ML) Helper":
 
