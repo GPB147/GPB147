@@ -17,83 +17,19 @@ GPB147_RoadMap =
 	
 				1 Small Community = [Legend Vantage]
 
-		1 Programming:
-
-			0 People in world = [8 Billion]
-
-			1 In world = [30 Millions=%0.375]
-
-			2 In Iran = [300 Thousands=%1 of world]
-
-			3 Earn money as a job in world = [%50]
-
-			4 Earn money as a job in Iran = [%25]
-
-			5 Remote working in another country in world = [%10]
-
-			6 remote working in another country in Iran = [%3]
-
-			7 Security in world = [%3]
-
-			8 Security in Iran = [%1.6]
-
-			9 Reverse engineering in world = [%0.5]
-
-			10 Reverse engineering in Iran = [%0.2]
-
-			11 BIOS / UEFI / Firmware in world = [%0.1 = 30 Thousands]
-
-			12 BIOS / UEFI / Firmware in Iran = [%0.05 = 150] 
-	
-		1 Programming=High Vantage(Dreamly Demand=%60 IN World & Community=%0.375 IN World):
-
-			0 High Vantage(Dreamly Demand=%100 OF %80 & Community=%20 OF %0.375):
-
-				0 English
-	
-				1 Python 
-
-				2 Linux+Shell 
-
-			1 Legend Vantage(Dreamly Demand=%40 & Community=%3):
-
-				0 C
-
-				1 Computer Architecture & Memory
-
-				2 Assembly(x86, ARM, x86_64)
-
-			2 Legend Vantage(Dreamly Demand=%20 & Community=%0.5):
-
-				6 Networking
-
-				7 Operating System Internals(OS Internet) 
-
-				8 Reverse Engineering 
-
-			3 Legend Vantage(Dreamly Demand=%4 & Community=%0.1):
-
-				0 Malware(user/kernel/rootkits) 
-
-				1 Firmware / BIOS / UEFI 
-
-				2 Doing + Reading 
-
-		2 Basics:
+		1 Basics:
 
 			0 Making A Comfort Zone
 
 			1 Disine This
 
-		3 Funding = [Hiring in remote companies]
+		2 Funding = [Hiring in remote companies 10Y, Making a company +Y]
 
-		4 Payment = [Crypto for living in Iran]
+		4 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
 
-		5 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
+		5 Reward = [Power(Social security, Freedome,...)]
 
-		6 Reward = [Power(Social security, Freedome,...)]
-
-		7 Who will I become:
+		6 Who will I become:
 
 			0 ID:
 
@@ -101,7 +37,7 @@ GPB147_RoadMap =
 
 				1 Long = [Computer start, Trust(is, broke, proves by codes)]
 
-			1 Benefits = [This area just going to evolve, Not full AI automated, Hiring guarantee(High demand and low supply), Remote, High power in society, Knowing and not programming]
+			1 Benefits = [This area just going to evolve, Not full AI automated, Hiring guarantee(High demand and low supply), Remote, High power in society, Knowing and not programming, Earning money in %85-95 top of every jobs in world]
 
 			2 Day routine:
 
