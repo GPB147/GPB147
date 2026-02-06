@@ -1,35 +1,25 @@
 ```python
 GPB147_RoadMap = 
 {
-	"0 Communication": 
+	"0 Personal": 
 		
-		"""0 A Dreamly Demand Organizm System For Vantage:
+		"""0 Funding proccess:
 
-			0 More Dreamly Demand:
+			0 Learning and making proofs = [2 Years]
 
-				0 Big Community= [Low Vantage]
+			1 Hiring in remote small EU companies by crypto payment = [4 Years]
 
-				1 Small Community = [High Vantage]
+			2 Consulting = [4 Years]
 
-			1 Less Dreamly Demand:
+			3 Making own company = [x Years]
 
-				0 Big Community = [Medium Vantage]
-	
-				1 Small Community = [Legend Vantage]
+		1 Important = [In my area repudation is more important than money]
 
-		1 Basics:
+		2 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
 
-			0 Making A Comfort Zone
+		3 Reward = [Power(Social security, Freedome,...)]
 
-			1 Disine This
-
-		2 Funding = [Hiring in remote companies 10Y, Making a company +Y]
-
-		4 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
-
-		5 Reward = [Power(Social security, Freedome,...)]
-
-		6 Who will I become:
+		4 Who will I become:
 
 			0 ID:
 
@@ -167,23 +157,19 @@ GPB147_RoadMap =
 
 			2 Growth:
 
-				0 Career = [The Cybersecurity Career Guide (2nd Edition), Remote research roles, Crypto / indirect payment (as you planned)]
+				0 Career = [The Cybersecurity Career Guide (2nd Edition)]
 
-				1 Hiring = [They connect to you, You connect to they]
-		
-				2 Trying = {"High demand: More", "Average demand: middle", "Low demand: Low"}
+				1 Hiring in my area:
 
-				3 Trusting(Constincy) = [GitHub, Reddit, StackOverFlow, Correboot, Linkedin, Conferences, Classes, Certifications]
+					0 They connect to you or you connect to they
 
-				4 Showing = [Writeups(Understanding) + POC(Making), Freelancing, Jobs]
+					1 They care about proofs more than academic degree or certifications
 
-				5 Testing = [Open source contributions(Doing in real world), CTF]
-	
-				6 Focus = [For success you just need one of every phases(GitHub(Writeups + POC + Open source contributions))]
+					2 Eu is the best location for my area
 
-				7 Don't do = [Certifications obsession, Social media branding, Not followers, Non‑technical networking]	
+					3 Crypto is the safest payment for me in small Eu companies
 
-				8 Roadmap:
+				2 Roadmap:
 
 					0 Github:
 
