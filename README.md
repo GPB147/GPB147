@@ -13,9 +13,9 @@ GPB147_RoadMap =
 
 			3 Making own company = [x Years]
 
-		1 Important = [In my area repudation is more important than money]
+		1 Important = [In my area repudiation is more important than money]
 
-		2 Requirements = [Time(2Y), Laptop, Internet, Focuse(Empty mind), Food]
+		2 Requirements = [Time, Laptop, Internet, Focuse(Empty mind), Food]
 
 		3 Reward = [Power(Social security, Freedome,...)]
 
@@ -27,7 +27,7 @@ GPB147_RoadMap =
 
 				1 Long = [Computer start, Trust(is, broke, proves by codes)]
 
-			1 Benefits = [This area just going to evolve, Not full AI automated, Hiring guarantee(High demand and low supply), Remote, High power in society, Knowing and not programming, Earning money in %85-95 top of every jobs in world]
+			1 Benefits = [This area just going to evolve, Not full AI automated, Hiring guarantee(High demand and low supply), Remote, High power in society, Knowing and not programming, Earning money in %50-75 top of every peoples in world]
 
 			2 Day routine:
 
@@ -210,29 +210,31 @@ GPB147_RoadMap =
 
 	"2 Learning Process":
 
-		"""0 2 Mounths = [English, Python] = [Done]
+		"""0 1 Mounth = [English] = [Done]
+
+		1 1 Mounth = [Python] = [Done]
 		
-		1 1 Mounths = [English, Linux+Shell] = [Done]
+		2 1 Mounths = [Linux+Shell] = [Done]
 		
-		2 1 Mounth = [English, C] = [Working]
+		3 1 Mounth = [C] = [Working]
 		
-		3 1 Mounth = [English, Computer Architecture & Memory] = [...]
+		4 1 Mounth = [Computer Architecture & Memory] = [...]
 		
-		4 1 Mounth = [English, Assembly(x86, ARM, x86_64)] = [...]
+		5 1 Mounth = [Assembly(x86, ARM, x86_64)] = [...]
 
-		5 1 Mounth = [English, Networking] = [...]
+		6 1 Mounth = [Networking] = [...]
 
-		6 1 Mounth = [English, Operating System Internals(OS Internet)] = [...]
+		7 1 Mounth = [Operating System Internals(OS Internet)] = [...]
 
-		7 1 Mounth = [English, Reverse Engineering] = [...]
+		8 1 Mounth = [Reverse Engineering] = [...]
 
-		8 1 Mounth = [English, Malware(user/kernel/rootkits)] = [...]
+		9 1 Mounth = [Malware(user/kernel/rootkits)] = [...]
 
-		9 4 Mounths = [English, Firmware / BIOS / UEFI] = [...]
+		10 4 Mounths = [Firmware / BIOS / UEFI] = [...]
 
-		10 1 Year = [English, Growth] = [...]
+		11 1 Year = [Growth] = [...]
 
-		11 Roadmap = [Knowing trust concepts(Not programming), Done, Go to next step, Knowing deeper trust concepts, done, ...]"""
+		12 Roadmap = [Knowing trust concepts(Not programming), Done, Go to next step, Knowing deeper trust concepts, done, ...]"""
 
 	"3 AI(ML) Helper":
 
