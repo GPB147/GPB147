@@ -1,262 +1,68 @@
 ```python
 GPB147_RoadMap = 
 {
-	"0 Personal": 
-		
-		"""0 Funding proccess:
 
-			0 Learning and making proofs = [2 Years]
+	"0 Personal":
 
-			1 Hiring in remote small EU companies by crypto payment = [4 Years]
+		"""0 ID = [CyberSecurity, APT, Full Stack Security Researcher, Offensive Security, Reverse Engineer, Programmer]
 
-			2 Consulting = [4 Years]
+		1 Concept = [Layers]"""
 
-			3 Making own company = [x Years]
-
-		1 Important = [In my area repudiation is more important than money]
-
-		2 Requirements = [Time, Laptop, Internet, Focuse(Empty mind), Food]
-
-		3 Reward = [Power(Social security, Freedome,...)]
-
-		4 Who will I become:
-
-			0 ID:
-
-				0 Short = [Remote firmware / boot-level security researcher]
-
-				1 Long = [Computer start, Trust(is, broke, proves by codes)]
-
-			1 Benefits = [This area just going to evolve, Not full AI automated, Hiring guarantee(High demand and low supply), Remote, High power in society, Knowing and not programming, Earning money in %50-75 top of every peoples in world]
-
-			2 Day routine:
-
-				0 Long:
-
-					0 Recive = [firmware image, device, boot log, or a research question like "Can this system be persistent below the OS?"]
-
-					1 Analyze = [UEFI modules, boot phases, Secure Boot flow, trust boundaries]
-
-					2 Reason = [Who is trusted here?, What happens if this is writable?, What executes before what?]
-
-					3 Build small POCs = [a malicious DXE driver, a persistence mechanism, a boot-time hook]
-
-					4 Explain = [writeups, reports, GitHub READMEs, sometimes internal company docs]
-
-				1 Short = [Read, Modify, Test, Explain]]"""
-		
-	"1 Knowing" = 
+	"1 Requirements" = 
 	"""{
-		0 Level 0:
 
 			0 English
+
+			1 Git = [Pro Git]
 		
-			1 Python:
+			2 Python = [Automate the Boring Stuff with Python by Al Sweigart]
 
-				0 Books = [Automate the Boring Stuff with Python (2nd Edition)]
+			3 Shell = [Blum R. Linux Command Line and Shell Scripting Bible..Tutorial Resource 5ed 2026]
 
-				1 Must to learn = [Write scripts without fear, Automate analysis, Read others’ Python]
+			4 C Programming = [The C Programming Language (2nd Edition)]
 
-				2 Don't learn = [Advanced Python internals, Data science, Web frameworks]
+			5 Computer Architecture & Memory = [Computer Organization and Design MIPS Edition 2020]
 
-			2 Linux + Terminal: 
+			6 Networking = [Computer Networking: A Top-Down Approach (8th Edition)]
 
-				0 Books = [Linux Command Line and Shell Scripting Bible (5th Edition) + Linux Basics for Hackers]
+			7 Assembly = [The Art of Assembly Language 2nd]
 
-				1 Must to learn = [Bash, POSIX just for understanding, Live in terminal, Debug, script, build, flash, analyze]
+			8 Linux = [The Linux Programming Interface (TLPI)]
 
-				2 Don't learn = [PowerShell, zsh tricks, fish, fancy shells, Desktop Linux theory, Server administration depth, know Linux, filesystem theory, customize or beautify, treat directories as static, Learn hundreds of commands]
+			9 Virtualization Basics (qemu/KVM) = [Mastering KVM Virtualization by Vedran Dakic]
 
-				3 Commands:
+			10 Web Application Security = [The Web Application Hacker’s Handbook (2nd Ed) by Stuttard & Pinto]
 
-					0 Leanrn it = [inspect, trace, automate, build, debug]
+			11 Cloud Infrastructure Security = [Attacking Cloud Infrastructure by Thomas Patzke & Michael Goert]
 
-					1 Ignore it = [customize, decorate, replace thinking]
+			12 Penetration Testing Methodology = [The Hacker Playbook 3: Practical Guide To Penetration Testing]
 
-		1 Level 1:
+			13 Compilers / Linkers / ELF / PE Basics = [Linkers and Loaders by John R. Levine]
 
-			0 C programming:
+			14 Reverse Engineering = [Practical Reverse Engineering by Dang et al.]
 
-				0 Books = [The C Programming Language (2nd Edition)]
+			15 Debugging Fundamentals (gdb, WinDbg) = [The GDB Pocket Guide by John K. Robbins]
 
-				1 Most to learn = [Pointers are natural, Read kernel & firmware C, Understand memory bugs]
+			16 Malware = [Practical Malware Analysis by Michael Sikorski]
 
-				2 Don't learn = [Modern C++ depth, STL, Application‑level patterns]
+		 	17 Exploitation in Userland = [The Shellcoder’s Handbook (2nd Edition)]
 
-			1 Computer Architecture & Memory:
+			18 System Trust, Crypto & Secure Boot = [Serious Cryptography by Jean-Philippe Aumasson]
 
-				0 Books = [Computer Organization and Design MIPS Edition 6th]
+			19 Exploitation in Kernel = [Google Project Zero Kernel Writeups]
 
-				1 Must to learn = [Stack / heap / registers, Privilege levels, Boot trust chain]
+			20 Exploitation in Hypervisor = [Intel 64 and IA-32 Architectures Software Developer’s Manual]
 
-				2 Don't learn = [Quantitative CPU optimization, HPC topics]
+			21 Exploitation in Bootloader = [UEFI Specification (selected sections)]
 
-			2 Assembly(x86, ARM, x86_64):
+			22 Exploitation in Firmware = [CHIPSEC source code (for deep dive into firmware security)]
 
-				0 Books = [The Art of Assembly Language (2nd Edition)]
+			23 Applied Engagement & Capture The Flag(CTF) = [Hack The Box (HTB) Pro, Labs/Academy, CTFTime Archives, HackerOne/Bugcrowd Triage, Reports]
 
-				1 Must to learn = [Read disassembly without fear, Translate C ↔ ASM, Understand calling conventions]
-
-				2 Don't learn = [Writing large ASM programs, Micro‑optimizations]
-
-		2 Level 2:
-
-			0 Networking:
-
-				0 Books = [Computer Networking: A Top-Down Approach (8th Edition)]
-
-				1 Must to learn = [Understand packet flow, Understand packet flow, Recognize malicious traffic, Support reverse engineering & malware analysis]
-
-				2 Tools = [Wireshark, Wireshark]
-
-				3 Stop at = [Application layer (light), Application layer (light), Transport layer (TCP/UDP)]
-
-				4 Don't learn = [Wireless deep dive, SDN, Advanced congestion control, Cloud networking, Network programming depth] 
-
-			1 Operating System Internals(OS Internet):
-
-				0 Books = [Windows Internals (7th Edition) + Operating Systems: Three Easy Pieces]
-
-				1 Must to learn = [User vs kernel boundary, Drivers, Boot chain OS ↔ firmware]
-
-				2 Don't learn = [Scheduler theory depth, Filesystem internals obsession]
-
-
-
-			2 Reverse Engineering:
-
-				0 Books = [Practical Reverse Engineering (latest) + Reversing: Secrets of RE (2nd Edition)]
-
-				1 Most to learn = [Reconstruct logic from binaries, Track data flow not instructions, Handle stripped binaries]
-
-				2 Tools = [Ghidra (primary), GDB / WinDbg (support)]
-
-				3 Don't learn = [Crackme culture, Obfuscation contests, GUI‑heavy reversing]
-
-		3 Level 3:
-
-			0 Malware(user/kernel/rootkits):
-
-				0 Books = [Practical Malware Analysis (latest) + Rootkits: Subverting the Windows Kernel (2nd Edition)]
-
-				1 Must to learn = [Persistence, Stealth, Hooks, Trust abuse]
-
-				2 Don't learn = [Web malware, Ransomware economics, Botnets]
-
-			1 Firmware / BIOS / UEFI:
-
-				0 Books = [The Firmware Handbook (Gary Koob) + UEFI Specification (official)]
-
-				1 Must to learn = [Know what each component does, Know where trust is assumed, Know how it breaks, Know how to abuse it]
-
-				2 Tools = [CHIPSEC, UEFITool, TianoCore, coreboot]
-
-				3 Topics to MASTER = [Boot phases: SEC / PEI / DXE, SPI flash, PE/COFF, UEFI protocols, Secure Boot, Firmware persistence]
-
-				3 Don't learn = [Full motherboard design, Electrical engineering, BIOS vendor marketing docs]
-
-			2 Growth:
-
-				0 Career = [The Cybersecurity Career Guide (2nd Edition)]
-
-				1 Hiring in my area:
-
-					0 They connect to you or you connect to they
-
-					1 They care about proofs more than academic degree or certifications
-
-					2 Eu is the best location for my area
-
-					3 Crypto is the safest payment for me in small Eu companies
-
-				2 Roadmap:
-
-					0 Github:
-
-						0 Writeups:
-
-							0 Means = [Underestnding Concepts]
-
-							1 Use = [README, Wiki, docs/Documentation]
-
-						1 POC:
-
-							0 Means = [Proof Of Concepts]
-
-							1 Use = [Coding]
-
-						2 Open source contributions:
-
-							0 Means = [Doing Concepts]
-
-							1 Focus = [Niche, quality not quantity]
-
-							2 Steps = [Read, Build, Use, Observe friction, Small contribution, PR, Repeat]
-
-							3 Projects:
-
-								0 CHIPSEC = [Hardware/firmware security testing]
-		
-								1 EDK II(TianoCore) = [UEFI firmware]
-	
-								2 coreboot = [Open-source BIOS/firmware]
-	
-								3 UEFITool = [UEFI image analysis]
-	
-								4 Ghidra = [Reverse engineering plugins/scripts]
-
-								5 Linux kernel tooling/doc = [Small bug fixes or docs]			
 }"""	
 
-	"2 Learning Process":
+	"2 Knowledges" = ["English", "Git", "Python", "Shell", "C"]
 
-		"""0 1 Mounth = [English] = [Done]
-
-		1 1 Mounth = [Python] = [Done]
-		
-		2 1 Mounths = [Linux+Shell] = [Done]
-		
-		3 1 Mounth = [C] = [Working]
-		
-		4 1 Mounth = [Computer Architecture & Memory] = [...]
-		
-		5 1 Mounth = [Assembly(x86, ARM, x86_64)] = [...]
-
-		6 1 Mounth = [Networking] = [...]
-
-		7 1 Mounth = [Operating System Internals(OS Internet)] = [...]
-
-		8 1 Mounth = [Reverse Engineering] = [...]
-
-		9 1 Mounth = [Malware(user/kernel/rootkits)] = [...]
-
-		10 4 Mounths = [Firmware / BIOS / UEFI] = [...]
-
-		11 1 Year = [Growth] = [...]
-
-		12 Roadmap = [Knowing trust concepts(Not programming), Done, Go to next step, Knowing deeper trust concepts, done, ...]"""
-
-	"3 AI(ML) Helper":
-
-		"""0 Roadmap:
-
-			0 Ask = [Giving data]
-
-			1 Customized = [Receive result] 
-
-			2 Learn = [More data] 
-
-			3 Confusing = [Error]
-
-			4 Ask = [Giving data]
-
-			5 Customized = [Receive result]
-
-			6 Learn = [More data]
-
-			7 Completed = [Completed healthy data] 
-
-			8 Go to next step = [Next subject]"""
 }
 ```
 
