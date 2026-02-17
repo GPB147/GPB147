@@ -4,9 +4,21 @@ GPB147_RoadMap =
 
 	"0 Personal":
 
-		"""0 ID = [CyberSecurity, APT, Full Stack Security Researcher, Offensive Security, Reverse Engineer, Programmer]
+		"""0 ID = [Vulnerability Researcher/Exploitation Developer]
 
-		1 Concept = [Layers]"""
+		1 Concept = [Layers]
+
+		2 Day Routine:
+
+			0 Found the target for testing
+
+			1 Reverse engineering + Thinking = [%50]
+
+			2 Debugging = [%15]
+
+			3 Coding = [%25]
+
+			4 Reporting = [%10]"""
 
 	"1 Requirements" = 
 	"""{
@@ -17,51 +29,51 @@ GPB147_RoadMap =
 		
 			2 Python = [Automate the Boring Stuff with Python by Al Sweigart]
 
-			3 Shell = [Blum R. Linux Command Line and Shell Scripting Bible..Tutorial Resource 5ed 2026]
+			3 Shell = [Linux Command Line and Shell Scripting Bible 5ed 2026]
 
 			4 C Programming = [The C Programming Language (2nd Edition)]
 
-			5 Computer Architecture & Memory = [Computer Organization and Design MIPS Edition 2020]
+			5 x86-64 Assembly + Introduction to Exploitation = [Hacking: The Art of Exploitation (2nd Edition) – Jon Erickson]
 
-			6 Networking = [Computer Networking: A Top-Down Approach (8th Edition)]
+			6 Computer Systems & Low-Level Architecture (Hardware-Software Interface) = [Computer Systems: A Programmer’s Perspective (3rd Edition) – Randal E. Bryant & David R. O’Hallaron]
 
-			7 Assembly = [The Art of Assembly Language 2nd]
+			7 Linux Systems Programming (Userland → Kernel Boundary) = [The Linux Programming Interface – Michael Kerrisk]
 
-			8 Linux = [The Linux Programming Interface (TLPI)]
+			8 Networking & Internet Protocols (Data Flow Layer) = [Computer Networking: A Top-Down Approach (8th Edition) – James Kurose & Keith Ross]
 
-			9 Virtualization Basics (qemu/KVM) = [Mastering KVM Virtualization by Vedran Dakic]
+			9 Linux Kernel Internals & Module Development = [Linux Kernel Programming (2nd Edition) – Kaiwan N. Billimoria]
 
-			10 Web Application Security = [The Web Application Hacker’s Handbook (2nd Ed) by Stuttard & Pinto]
+			10 Reverse Engineering = [Reversing: Secrets of Reverse Engineering – Eldad Eilam]
 
-			11 Cloud Infrastructure Security = [Attacking Cloud Infrastructure by Thomas Patzke & Michael Goert]
+			11 Advanced Debugging & Tools = [The Art of Debugging with GDB, DDD, and Eclipse – Norman Matloff & Peter Jay Salzman]
 
-			12 Penetration Testing Methodology = [The Hacker Playbook 3: Practical Guide To Penetration Testing]
+			12 Vulnerability Discovery & Modern Fuzzing = [From Day Zero to Zero Day: A Hands-On Guide to Vulnerability Research – Eugene]
 
-			13 Compilers / Linkers / ELF / PE Basics = [Linkers and Loaders by John R. Levine]
+			13 Binary/Userland Exploitation (Advanced) = [Practical Binary Analysis – Dennis Andriesse]
 
-			14 Reverse Engineering = [Practical Reverse Engineering by Dang et al.]
+			14 Kernel Exploitation = [A Guide to Kernel Exploitation: Attacking the Core – Enrico Perla & Massimiliano Oldani]
 
-			15 Debugging Fundamentals (gdb, WinDbg) = [The GDB Pocket Guide by John K. Robbins]
+			15 Firmware, Bootloader & Embedded/IoT Exploitation = [Practical IoT Hacking – Fotios Chantzis et al. (No Starch Press)]
 
-			16 Malware = [Practical Malware Analysis by Michael Sikorski]
-
-		 	17 Exploitation in Userland = [The Shellcoder’s Handbook (2nd Edition)]
-
-			18 System Trust, Crypto & Secure Boot = [Serious Cryptography by Jean-Philippe Aumasson]
-
-			19 Exploitation in Kernel = [Google Project Zero Kernel Writeups]
-
-			20 Exploitation in Hypervisor = [Intel 64 and IA-32 Architectures Software Developer’s Manual]
-
-			21 Exploitation in Bootloader = [UEFI Specification (selected sections)]
-
-			22 Exploitation in Firmware = [CHIPSEC source code (for deep dive into firmware security)]
-
-			23 Applied Engagement & Capture The Flag(CTF) = [Hack The Box (HTB) Pro, Labs/Academy, CTFTime Archives, HackerOne/Bugcrowd Triage, Reports]
+			16 Hardware Hacking & Side-Channel Attacks = [The Hardware Hacking Handbook – Jasper van Woudenberg & Colin O’Flynn]
 
 }"""	
 
 	"2 Knowledges" = ["English", "Git", "Python", "Shell", "C"]
+
+	"3 After books":
+
+		"""0 Build a home lab: QEMU + Ghidra + radare2/rizin + AFL++ + Binwalk + Frida
+
+		1 Daily practice: pwn.college (best free binary/kernel training in 2026), exploit.education, HackTheBox, CTFtime
+
+		2 Extract and break real firmware from cheap IoT devices on AliExpress
+
+		3 Write public exploit PoCs and detailed write-ups on your GitHub
+
+		4 Start bug bounties (HackerOne, Bugcrowd, Intigriti) — many researchers from Iran earn full-time remote income this way
+
+		5 Contribute to open-source security tools or Linux kernel modules"""
 
 }
 ```
