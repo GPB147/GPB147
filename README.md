@@ -2,7 +2,7 @@
 GPB147_RoadMap = 
 {
 
-	"0 Personal":
+	"0 Target":
 
 		"""0 ID = [Vulnerability Researcher/Exploitation Developer]
 
@@ -10,28 +10,26 @@ GPB147_RoadMap =
 
 		2 Day Routine:
 
-			0 Found the target for testing
+			0 Found target + Reverse + Thinking = [%40]
 
-			1 Reverse engineering + Thinking = [%50]
+			1 Debugging + Crashing + Exploiting = [%35]
 
-			2 Debugging = [%15]
+			2 Coding (PoCs, tools, scripts) = [%15]
 
-			3 Coding = [%25]
-
-			4 Reporting = [%10]"""
+			3 Write-up + Posting = [%10]"""
 
 	"1 Requirements" = 
 	"""{
 
-			0 English
+			0 English = [Movies and books] = Working
 
-			1 Git = [Pro Git]
+			1 Git = [Pro Git] = Done
 		
-			2 Python = [Automate the Boring Stuff with Python by Al Sweigart]
+			2 Python = [Automate the Boring Stuff with Python by Al Sweigart] = Done
 
-			3 Shell = [Linux Command Line and Shell Scripting Bible 5ed 2026]
+			3 Shell = [Linux Command Line and Shell Scripting Bible 5ed 2026] = Done
 
-			4 C Programming = [The C Programming Language (2nd Edition)]
+			4 C Programming = [The C Programming Language (2nd Edition)] = Done
 
 			5 x86-64 Assembly + Introduction to Exploitation = [Hacking: The Art of Exploitation (2nd Edition) – Jon Erickson]
 
@@ -57,23 +55,33 @@ GPB147_RoadMap =
 
 			16 Hardware Hacking & Side-Channel Attacks = [The Hardware Hacking Handbook – Jasper van Woudenberg & Colin O’Flynn]
 
-}"""	
+	}"""	
 
-	"2 Knowledges" = ["English", "Git", "Python", "Shell", "C"]
+	"2 Repudation" = "[GitHub, Linkedin]"
 
-	"3 After books":
+	"3 Day routine":
 
-		"""0 Build a home lab: QEMU + Ghidra + radare2/rizin + AFL++ + Binwalk + Frida
+		"""0 Energy + Empty mind
 
-		1 Daily practice: pwn.college (best free binary/kernel training in 2026), exploit.education, HackTheBox, CTFtime
+		1 Upgrade repo in GitHub
 
-		2 Extract and break real firmware from cheap IoT devices on AliExpress
+		2 Reading and making write-up + PoCs:
 
-		3 Write public exploit PoCs and detailed write-ups on your GitHub
+			0 Process:
 
-		4 Start bug bounties (HackerOne, Bugcrowd, Intigriti) — many researchers from Iran earn full-time remote income this way
+				0 (Pages of a book / 30) = Must to done everyday
 
-		5 Contribute to open-source security tools or Linux kernel modules"""
+				1 More/Less pages do in a day = ((Pages left of this book / Days left of 30 days) = New must done everyday)
+
+		3 Body
+
+		4 Seeing English sub movie / Reading English novel
+
+		5 Doing Open Sourses / Issues in GitHub
+
+		6 Update linkedin(Every week)
+
+		7 Applying(Not every day)"""
 
 }
 ```
