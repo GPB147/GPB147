@@ -1,5 +1,5 @@
 ```python
-GPB147_RoadMap = 
+GPB147_Roadmap = 
 {
 
 	"0 Target":
@@ -16,7 +16,13 @@ GPB147_RoadMap =
 
 			2 Coding (PoCs, tools, scripts) = [%15]
 
-			3 Write-up + Posting = [%10]"""
+			3 Write-up + Posting = [%10]
+
+		3 The way = (Diploma + GitHub)(1Y):
+
+			0 -> Military command(2Y) -> Hiring in a company(2Y) -> Immigration
+
+			1 -> Hiring in a company -> (Bachelor's degree IT/Cybersecurity/etc)(4Y) -> Military command(2Y) -> Immigration"""
 
 	"1 Requirements" = 
 	"""{
@@ -31,7 +37,7 @@ GPB147_RoadMap =
 
 			4 C Programming = [The C Programming Language (2nd Edition)] = Done
 
-			5 x86-64 Assembly + Introduction to Exploitation = [Hacking: The Art of Exploitation (2nd Edition) – Jon Erickson]
+			5 x86-64 Assembly + Introduction to Exploitation = [Hacking: The Art of Exploitation (2nd Edition) – Jon Erickson] = Working
 
 			6 Computer Systems & Low-Level Architecture (Hardware-Software Interface) = [Computer Systems: A Programmer’s Perspective (3rd Edition) – Randal E. Bryant & David R. O’Hallaron]
 
@@ -61,7 +67,7 @@ GPB147_RoadMap =
 
 	"3 Day routine":
 
-		"""0 Energy + Empty mind
+		"""0 Energy + Empty mind + Body
 
 		1 Upgrade repo in GitHub
 
@@ -73,15 +79,13 @@ GPB147_RoadMap =
 
 				1 More/Less pages do in a day = ((Pages left of this book / Days left of 30 days) = New must done everyday)
 
-		3 Body
+		3 Seeing English sub movie / Reading English novel
 
-		4 Seeing English sub movie / Reading English novel
+		4 Doing Open Sourses / Issues in GitHub
 
-		5 Doing Open Sourses / Issues in GitHub
+		5 Update linkedin(Every week)
 
-		6 Update linkedin(Every week)
-
-		7 Applying(Not every day)"""
+		6 Applying(Not every day)"""
 
 }
 ```
