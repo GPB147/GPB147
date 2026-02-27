@@ -16,13 +16,7 @@ GPB147_Roadmap =
 
 			2 Coding (PoCs, tools, scripts) = [%15]
 
-			3 Write-up + Posting = [%10]
-
-		3 The way = (Diploma + GitHub)(1Y):
-
-			0 -> Military command(2Y) -> Hiring in a company(2Y) -> Immigration
-
-			1 -> Hiring in a company -> (Bachelor's degree IT/Cybersecurity/etc)(4Y) -> Military command(2Y) -> Immigration"""
+			3 Write-up + Posting = [%10]"""
 
 	"1 Requirements" = 
 	"""{
@@ -65,27 +59,7 @@ GPB147_Roadmap =
 
 	"2 Repudation" = "[GitHub, Linkedin]"
 
-	"3 Day routine":
-
-		"""0 Energy + Empty mind + Body
-
-		1 Upgrade repo in GitHub
-
-		2 Reading and making write-up + PoCs:
-
-			0 Process:
-
-				0 (Pages of a book / 30) = Must to done everyday
-
-				1 More/Less pages do in a day = ((Pages left of this book / Days left of 30 days) = New must done everyday)
-
-		3 Seeing English sub movie / Reading English novel
-
-		4 Doing Open Sourses / Issues in GitHub
-
-		5 Update linkedin(Every week)
-
-		6 Applying(Not every day)"""
+	"3 Day routine" = "[Reading, Write-up, PoCs, Commit, Open Sources, Issues]"
 
 }
 ```
